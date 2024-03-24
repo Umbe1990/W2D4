@@ -21,7 +21,7 @@ const arrotondamento=28.70
 
 if(arrotondamento<100){
     importoFinale= arrotondamento + shippingCost
-    console.log(importoFinale)
 }
 
 
+console.log(importoFinale)
