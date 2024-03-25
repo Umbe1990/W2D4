@@ -16,7 +16,7 @@ ES. L'utente Marco Rossi e' un ambassador, quindi la frase dovrebbe essere "Marc
 Infine, crea un SECONDO array in cui inserirai SOLO gli ambassador.
 */
 
-const marco = {
+/*const marco = {
   name: "Marco",
   lastName: "Rossi",
   isAmbassador: true,
@@ -81,4 +81,108 @@ for(let i=0; i<arreyutenti.length; i++){
 
 
 }
-console.log(arrayAmbassador)
+console.log(arrayAmbassador)*/
+
+
+/*const array=[5,7,10,12,8,6,5,18]
+let somma=0
+
+
+  somma=Math.max(...array)
+  console.log(somma)
+
+  const numeriPari=array.filter(numero=>numero%2===0)
+
+  console.log(numeriPari)*/
+
+ /* const array=[5,7,10,12,8,6,5,18]
+  const array1=[1,8,7,6,3]
+ const sommaArray=[...array,...array1]
+
+ console.log(sommaArray)
+
+
+ const spese = {
+  cibo: 50,
+  trasporti: 30,
+  affitto: 500,
+  utenze: 100,
+};
+let somma=0
+for(let proprietà in spese){
+  somma+=spese[proprietà]
+}
+console.log(somma)
+
+/*
+const oggetto1 = {
+  nome: "Mario",
+  età: 30,
+  professione: "Ingegnere",
+};
+
+const oggetto2 = {
+  nome: "Luigi",
+  età: 31,
+  professione: "Architetto",
+}
+
+for(let proprietà in oggetto1){
+  if(oggetto1[proprietà]===oggetto2[proprietà]){
+    console.log(proprietà)
+  }
+
+}
+
+
+let giorno=3
+let nomegiorno=0;
+
+switch (giorno){
+  case 1:
+    nomegiorno="lunedi";
+    break
+  case 2:
+    nomegiorno="martedi";
+    break  
+    case 3:
+      nomegiorno="mercoledi";
+      break
+}
+console.log("il giorno 3 della settimana è " + nomegiorno)
+
+
+const persona = {
+  nome: "Mario",
+  eta: 30,
+  cnd: "cndmrt90b21"
+};
+persona.eta=35
+persona.sesso= "maschio"
+
+
+     
+
+
+for(let chiave in persona){
+  console.log(`il ${chiave}  è  ${persona[chiave]}`)
+}
+
+const numero=10
+
+*/
+
+const marco = {
+  name: "Marco",
+  lastName: "Rossi",
+  isAmbassador: true,
+}
+
+const michele = {
+  name: "michele",
+  lastName: "neri",
+  isAmbassador: false,
+}
+
+constInsieme={...michele,...marco}
+console.log(constInsieme)
